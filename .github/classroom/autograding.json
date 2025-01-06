@@ -1,0 +1,208 @@
+{
+    "tests": [
+      {
+        "name": "test_numAdds1",
+        "run": "./test -p test_numAdds1",
+        "timeout": 2,
+        "points": 1
+      },   
+      {
+        "name": "test_numAdds2",
+        "run": "./test -p test_numAdds2",
+        "timeout": 2,
+        "points": 1
+      },
+      {
+        "name": "test_numAdds3",
+        "run": "./test -p test_numAdds3",
+        "timeout": 2,
+        "points": 1
+      },
+      {
+        "name": "test_numAdds4",
+        "run": "./test -p test_numAdds4",
+        "timeout": 2,
+        "points": 1
+      },         
+      {
+        "name": "test_depth1",
+        "run": "./test -p test_depth1",
+        "timeout": 2,
+        "points": 1
+      },   
+      {
+        "name": "test_depth2",
+        "run": "./test -p test_depth2",
+        "timeout": 2,
+        "points": 1
+      },
+      {
+        "name": "test_depth3",
+        "run": "./test -p test_depth3",
+        "timeout": 2,
+        "points": 1
+      }, 
+      {
+        "name": "test_depth4",
+        "run": "./test -p test_depth4",
+        "timeout": 2,
+        "points": 1
+      },        
+      {
+        "name": "test_singletonOrEmpty1",
+        "run": "./test -p test_singletonOrEmpty1",
+        "timeout": 2,
+        "points": 1
+      },
+      {
+        "name": "test_singletonOrEmpty2",
+        "run": "./test -p test_singletonOrEmpty2",
+        "timeout": 2,
+        "points": 1
+      },
+      {
+        "name": "test_singletonOrEmpty3",
+        "run": "./test -p test_singletonOrEmpty3",
+        "timeout": 2,
+        "points": 1
+      },
+      {
+        "name": "test_singletonOrEmpty4",
+        "run": "./test -p test_singletonOrEmpty4",
+        "timeout": 2,
+        "points": 1
+      }, 
+      {
+        "name": "test_member1",
+        "run": "./test -p test_member1",
+        "timeout": 2,
+        "points": 1
+      },   
+      {
+        "name": "test_member2",
+        "run": "./test -p test_member2",
+        "timeout": 2,
+        "points": 1
+      },
+      {
+        "name": "test_member3",
+        "run": "./test -p test_member3",
+        "timeout": 2,
+        "points": 1
+      },
+      {
+        "name": "test_member4",
+        "run": "./test -p test_member4",
+        "timeout": 2,
+        "points": 1
+      },                 
+      {
+        "name": "test_size1",
+        "run": "./test -p test_size1",
+        "timeout": 2,
+        "points": 1
+      },   
+      {
+        "name": "test_size2",
+        "run": "./test -p test_size2",
+        "timeout": 2,
+        "points": 1
+      },  
+      {
+        "name": "test_size3",
+        "run": "./test -p test_size3",
+        "timeout": 2,
+        "points": 1
+      },
+      {
+        "name": "test_size4",
+        "run": "./test -p test_size4",
+        "timeout": 2,
+        "points": 1
+      },                 
+      {
+        "name": "test_ins1",
+        "run": "./test -p test_ins1",
+        "timeout": 2,
+        "points": 1
+      },   
+      {
+        "name": "test_ins2",
+        "run": "./test -p test_ins2",
+        "timeout": 2,
+        "points": 1
+      },
+      {
+        "name": "test_ins3",
+        "run": "./test -p test_ins3",
+        "timeout": 2,
+        "points": 1
+      }, 
+      {
+        "name": "test_ins4",
+        "run": "./test -p test_ins4",
+        "timeout": 2,
+        "points": 1
+      },       
+      {
+        "name": "test_union1",
+        "run": "./test -p test_union1",
+        "timeout": 2,
+        "points": 1
+      },
+      {
+        "name": "test_union2",
+        "run": "./test -p test_union2",
+        "timeout": 2,
+        "points": 1
+      },
+      {
+        "name": "test_union3",
+        "run": "./test -p test_union3",
+        "timeout": 2,
+        "points": 1
+      },
+      {
+        "name": "test_union4",
+        "run": "./test -p test_union4",
+        "timeout": 2,
+        "points": 1
+      },  
+      {
+        "name": "test_union5",
+        "run": "./test -p test_union5",
+        "timeout": 2,
+        "points": 1
+      },           
+      {
+        "name": "test_intersection1",
+        "run": "./test -p test_intersection1",
+        "timeout": 2,
+        "points": 1
+      },
+      {
+        "name": "test_intersection2",
+        "run": "./test -p test_intersection2",
+        "timeout": 2,
+        "points": 1
+      },  
+      {
+        "name": "test_intersection3",
+        "run": "./test -p test_intersection3",
+        "timeout": 2,
+        "points": 1
+      }, 
+      {
+        "name": "test_intersection4",
+        "run": "./test -p test_intersection4",
+        "timeout": 2,
+        "points": 1
+      },    
+      {
+        "name": "test_intersection5",
+        "run": "./test -p test_intersection5",
+        "timeout": 2,
+        "points": 1
+      }
+    ]
+  }
