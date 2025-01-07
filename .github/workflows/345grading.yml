@@ -63,7 +63,7 @@ jobs:
           ghc Prog6Tests
           ghc -o test Prog6.o Prog6Tests.o
 
-      - uses: WCU-CS-CooperLab/autofeedback-s@v1.2
+      - uses: WCU-CS-CooperLab/autofeedback-s@v1.6
         id: autograder
         continue-on-error: true
 
@@ -116,7 +116,7 @@ jobs:
           force: true
       - name: not enough pass
         if: steps.split.outputs._0 <= 30
-        run: echo "${{ steps.split.outputs._0 }} tests passed out of ${{steps.split.outputs._1}} is fewer than 33 passed tests, Check Run WCU-CS-CooperLab/autofeedback-s@v1.2 for feedback. " && exit 1
+        run: echo "${{ steps.split.outputs._0 }} tests passed out of ${{steps.split.outputs._1}} is fewer than 31 passed tests, Check Annotations for feedback. " && exit 1
       - name: enough pass
         if: steps.split.outputs._0 > 30
-        run: echo "${{ steps.split.outputs._0 }} tests passed out of ${{steps.split.outputs._1}}, Check Run WCU-CS-CooperLab/autofeedback-s@v1.2 for feedback. "
+        run: echo "${{ steps.split.outputs._0 }} tests passed out of ${{steps.split.outputs._1}}, Check Annotations for feedback. "
